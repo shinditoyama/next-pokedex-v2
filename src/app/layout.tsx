@@ -34,20 +34,3 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
-
-{
-  /*
-
-<body className={montserrat.className}>
-        <NextTopLoader />
-        <div className="relative flex flex-row min-h-screen">
-          <Sidebar />
-          <div className="flex flex-col flex-1">
-            <Header />
-            <main className="flex flex-1 bg-secondary">{children}</main>
-          </div>
-        </div>
-      </body>
-
-*/
-}

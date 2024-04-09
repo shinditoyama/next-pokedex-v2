@@ -48,3 +48,7 @@ interface ITypeAttributes {
   id: number;
   name: string;
 }
+
+interface ISpecie {
+  [genus: string];
+}

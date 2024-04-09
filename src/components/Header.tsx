@@ -9,7 +9,7 @@ export async function Header() {
   const { type } = await fetchType();
 
   return (
-    <header className="fixed py-3 flex items-center top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="fixed py-3 flex items-center top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-between">
           <div className="flex items-center gap-4">
